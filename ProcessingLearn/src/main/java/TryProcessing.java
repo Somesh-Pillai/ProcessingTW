@@ -48,7 +48,7 @@ public class TryProcessing extends PApplet {
         s4 += 4;
     }
 
-    private void printWhite() {
-        background(255);                             //erasing every time we draw by white
-    }
+   // private void printWhite() {
+   //     background(255);                             //erasing every time we draw by white
+   // }
 }
