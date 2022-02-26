@@ -3,10 +3,11 @@ public class Balls {
     private int xPos;
     private final int yPos;
 
-    public Balls(int speed, int yPos) {
+    public Balls(int speed, int yPos, PApplet pApplet) {
         this.speed = speed;
         this.xPos = 0;
         this.yPos = yPos;
+        this.pApplet = pApplet;
     }
 
     public int getSpeed() {  //getters and setters
